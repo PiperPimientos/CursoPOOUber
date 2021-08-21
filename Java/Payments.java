@@ -1,0 +1,4 @@
+class Payments{
+    Integer id;
+    
+}
