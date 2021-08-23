@@ -1,6 +1,6 @@
 from account import Account
 
-class Car:
+class car:
     id         = int
     license    = str
     driver     = Account("","")
