@@ -10,4 +10,16 @@ $UberX->printDataCar();
 $UberPool = new UberX("ABC123", new Account("Martin Jaramillo", "MTN123"), "Grand Vitara", "Suzuki");
 $UberPool->printDataCar();
 
+$payment = new Payment("PAYMENT");
+$payment->printDataPayment();
+
+$cash = new Cash("CASH");
+$cash->printDataPayment();
+
+$Paypal = new Paypal("PAYPAL", "micuenta@gmail.com");
+$Paypal->printDataPayment();
+
+$Card = new $Card("CARD", "5240XXXXXXXX", "123", "12/24");
+$Card->printDataPayment();
+
 ?>
