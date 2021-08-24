@@ -1,8 +1,7 @@
-class Ppaypal extends Payment(){
-    constructor(id,referencia,sucursal){
-        super(id)
-        this.referencia = referencia;
-        this.sucursal = sucursal;
-        
+class Paypal extends Payment {
+    constructor(id, email) {
+        super(id);
+        this.email = email;
     }
+
 }
