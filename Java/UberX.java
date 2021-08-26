@@ -9,5 +9,8 @@ class UberX extends Car {
 
 
     }
+
+    public void setPassenger(int passenger) {
+    }
     
 }
